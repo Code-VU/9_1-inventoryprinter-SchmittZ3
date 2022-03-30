@@ -8,4 +8,4 @@ def displayInventory(inventory):
         print(stuff[key], key)
         count = count + stuff[key]
     print("Total number of items:", count)
-displayInventory(stuff)
+##displayInventory(stuff)
