@@ -4,8 +4,8 @@ def displayInventory(inventory):
     # your code goes here
     count = 0
     print("Inventory:")
-    for key in stuff:
-        print(stuff[key], key)
-        count = count + stuff[key]
+    for key in inventory:
+        print(inventory[key], key)
+        count = count + inventory[key]
     print("Total number of items:", count)
 ##displayInventory(stuff)
